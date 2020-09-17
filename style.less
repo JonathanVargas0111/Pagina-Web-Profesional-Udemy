@@ -224,3 +224,86 @@ header{
     }
 }
 
+////////////Fin del contenido 1 Ciudades
+
+.cont-city{
+    
+    margin: 180px 0px ;//Separacion vertical
+    position: relative;
+    .city-info{
+        padding:0px 100px; //Margen general
+        display: flex;
+        flex-flow: row;
+        z-index: 1;
+        
+        .city-img{
+            width: 40%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .city-text{           
+            width: 40%;
+            padding:0px 100px;
+            background-color: white;
+            h3{
+                margin:0px;
+                font-weight:400;
+                font-size:18px;
+            }
+            h1{
+                margin: 25px 0px;
+                font-weight: 600;
+                font-size:40px;
+            }
+            .city-opc{
+                display: flex;
+                flex-flow: row;
+                img{
+                    width: 30px;
+                    margin-right: 18px;
+                }
+                a{
+                    text-decoration:none;
+                    color: black;
+                }
+                h2{
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-right: 40px;
+                }
+            }
+            p{
+                margin-bottom: 50px;
+                font-size:19px;
+            }
+            .btn-city{
+                background-color: black;
+                color: white;
+                text-decoration:none;
+                padding:17px 70px;
+                font-size:20px;
+                font-weight: bold;
+                display: block;
+                text-align: center;
+                width: 210px;
+                margin-bottom: 30px;
+            }
+        }
+
+    }
+    .city-bg{
+        background-image: url(../img/textura.png);
+        background-size:cover;
+        background-position: center;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        bottom:0px;
+        z-index:-10;
+        opacity:0.38;
+
+    }
+}
