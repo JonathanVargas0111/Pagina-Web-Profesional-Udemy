@@ -215,7 +215,8 @@ header .flecha-head img {
   z-index: 1;
 }
 .cont-city .city-info .city-img {
-  width: 40%;
+  /* width: 40%; */
+  width: 50%;
 }
 .cont-city .city-info .city-img img {
   width: 100%;
@@ -223,8 +224,9 @@ header .flecha-head img {
   object-fit: cover;
 }
 .cont-city .city-info .city-text {
-  width: 40%;
-  padding: 0px 100px;
+  /* width: 40%; */
+  width: 50%;
+  padding: 0px 50px;
   background-color: white;
 }
 .cont-city .city-info .city-text h3 {
@@ -335,4 +337,83 @@ header .flecha-head img {
   margin-bottom: 100px;
   padding-right: 40px;
   font-size: 400;
+}
+footer {
+  background-color: #1A4958;
+  padding: 70px 100px;
+}
+footer .footer-cont {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  color: white;
+}
+footer .footer-cont .footer-col1 {
+  width: 30%;
+}
+footer .footer-cont .footer-col1 .footer-info {
+  display: flex;
+  flex-flow: row;
+}
+footer .footer-cont .footer-col1 .footer-info img {
+  width: 25px;
+  margin-right: 10px;
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+}
+footer .footer-cont .footer-col1 .footer-info h3 {
+  font-size: 15px;
+  font-weight: 400;
+}
+footer .footer-cont .footer-col2 {
+  width: 20%;
+}
+footer .footer-cont .footer-col2 ul {
+  list-style: circle;
+}
+footer .footer-cont .footer-col2 ul li {
+  font-size: 21px;
+  margin-bottom: 16px;
+}
+footer .footer-cont .footer-col2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .footer-cont .footer-col3 {
+  width: 20%;
+}
+footer .footer-cont .footer-col3 ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+footer .footer-cont .footer-col3 ul li {
+  font-size: 17px;
+  margin-bottom: 16px;
+}
+footer .footer-cont .footer-col4 {
+  width: 30%;
+}
+footer .footer-cont .footer-col4 h3 {
+  font-size: 17px;
+  font-weight: 400;
+}
+footer .footer-cont .footer-col4 form {
+  display: flex;
+  flex-flow: column;
+}
+footer .footer-cont .footer-col4 form input[type='text'] {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 10px 10px;
+  width: 75%;
+  margin-bottom: 20px;
+  color: white;
+}
+footer .footer-cont .footer-col4 form input[type='submit'] {
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px 10px;
+  width: 81%;
+  font-size: 16px;
+  font-weight: 400;
 }
